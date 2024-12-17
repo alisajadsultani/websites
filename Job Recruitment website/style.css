@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #E5E3DD;
+}
+
+.first_container {
+    padding: 10px 8%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1497366811353-6870744d04b2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lZXRpbmclMjByb29tfGVufDB8fDB8fHww);
+    filter: brightness(85%);
+    background-color: #E5E3DD;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: rgba(51, 51, 51, 0.9); 
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul li a:hover {
+  color: #00aced;
+}
+
+nav h1 {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  width: 180px;
+  display: inline-block;
+  padding-right: 70%;
+  font-size: 25px;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.first_container h2 {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  text-align: center;
+  margin-top: 250px;
+  margin-right: 80;
+  font-size: 65px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image {
+  width: 60%;
+  height: auto;
+  border-radius: 0;
+  margin-left: -50px;
+}
+
+
+.about-us {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 40%;
+  text-align: center;
+  margin-left: 160px;
+}
+
+
+.about-us h3 {
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us p {
+  color:#333333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  max-height: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-container h4{
+  color: #fff;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.address{
+  color: #fff;
+  font-size:15px;
+  margin: 20px;
+  text-align: center;
+}
+
+.phone{
+  color: #fff;
+  font-size:15px;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-container {
+  background-color: #4A4A4A;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 3%;
+}
+
+.phone-image{
+  position: relative;
+  filter:grayscale(100%);
+  width: 20px;
+  margin-right: 5px;
+  height: 5=20px;
+  vertical-align: middle;
+}
+
+.contact-image-x{
+  position: relative;
+  filter:grayscale(100%);
+  filter: contrast(0.25);
+  width: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 38px;
+  border-radius: 4mm;
+  vertical-align: middle;
+}
+
+.contact-image-email,
+.contact-image-insta {
+  position: relative;
+  filter:grayscale(100%);
+  width: 38px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 38px;
+  border-radius: 4mm;
+  vertical-align: middle;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#fieldset {
+ width: 80%; 
+ margin: auto;
+ border-width: 20px;
+ background-color: #333333;
+}
+
+#tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+#titles .jobtitles table{
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#tiles .jobtitles td {
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  border: 2px solid #888;
+  border-width: 5px;
+  width: 320px;
+  height: 200px;
+
+}
+
+#tiles .jobtitles table td:hover{
+  background-color: #b0afaf;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.clear-storage-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff5e5e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.clear-storage-button:hover {
+  background-color: #e04141;
+}
